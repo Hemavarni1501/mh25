@@ -1,0 +1,20 @@
+{
+    "pm kisan loan": {
+        "is_real": true,
+        "official_source": "www.pmkisan.gov.in",
+        "key_fact": "No loan or subsidy money requires an upfront fee, OTP, or PIN.",
+        "red_flags": ["fee", "otp", "pin", "immediate approval", "whatsapp link"]
+    },
+    "kisan credit card": {
+        "is_real": true,
+        "official_source": "www.jansamarth.in",
+        "key_fact": "KCC applications must be submitted to banks, not via SMS links.",
+        "red_flags": ["short url", "click here", "urgently", "account blocked"]
+    },
+    "fertilizer subsidy": {
+        "is_real": true,
+        "official_source": "Ministry of Chemicals and Fertilizers, GOI",
+        "key_fact": "Fertilizer subsidies are applied through retailers and DBT, not by calling random mobile numbers.",
+        "red_flags": ["call now", "mobile number", "limited time offer"]
+    }
+}
